@@ -35,3 +35,17 @@ To check git status
 git status
 ```
 
+To check all version maintained by git 
+```
+git log
+```
+
+To create version or commit all changes  y git
+```
+git commit -m 'message'
+```
+
+To send version/changes
+```
+git push origin main
+```
