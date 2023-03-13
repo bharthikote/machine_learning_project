@@ -49,3 +49,18 @@ To send version/changes
 ```
 git push origin main
 ```
+To setup CI/CD pipeline in Heroku we need three information
+1. HERROKU_EMAIL = bharathsharath0221@gmail.com
+2. API_KEY = rnd_anlMvWxzTFjJbHa38YtX88yQtWnk9e05278af40a
+3. APP_NAME = ml-regression-app
+
+BUILD DOCKER IMAGE
+```
+docker build -t <image_name>:<tagname> .
+```
+> Note: Image name for docker must be lower case
+
+To list docker images
+```
+docker images
+```
